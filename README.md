@@ -1,6 +1,24 @@
-# react-amphtml
+# react-amphtml-nonjene-fork
 
 Use [`amphtml`][amp repo] components inside your React apps easily!
+
+## About
+
+This package is forked from [https://github.com/dfrankland/react-amphtml](https://github.com/dfrankland/react-amphtml) as the author seems not maintain it anymore.
+
+### The changes
+
+- Set `sideEffects` to false to enable the build tree shaking. This is useful when you are building a project mixed with normal page & AMP, the normal page's js bundle can shake off this module (about 230 KB).
+
+
+## Install
+
+`yarn add react-amphtml-nonjene-fork`
+
+or
+
+`npm install react-amphtml-nonjene-fork`
+
 
 ## Usage
 
